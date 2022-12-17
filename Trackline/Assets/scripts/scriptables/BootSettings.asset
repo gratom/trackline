@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8094170c317614440b058ef73f0723ca, type: 3}
+  m_Name: BootSettings
+  m_EditorClassIdentifier: 
+  bootTime: 1
+  nextSceneIndex: 1
+  managers:
+  - {fileID: 7086383316492532718, guid: e78cfa5b63547cd4fb4670d68a905246, type: 3}
+  - {fileID: 3858075891785070642, guid: 36fc71eb0243b2845a995e9234edaf7e, type: 3}
+  - {fileID: 7086383316492532718, guid: e78cfa5b63547cd4fb4670d68a905246, type: 3}
+  - {fileID: 7086383316492532718, guid: e78cfa5b63547cd4fb4670d68a905246, type: 3}
