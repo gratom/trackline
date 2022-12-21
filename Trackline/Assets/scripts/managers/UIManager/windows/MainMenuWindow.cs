@@ -1,4 +1,7 @@
-﻿namespace Global.Components.UserInterface
+﻿using Global.Managers;
+using UnityEngine;
+
+namespace Global.Components.UserInterface
 {
     public class MainMenuWindow : BaseWindow
     {
@@ -8,6 +11,11 @@
 
         protected override void OnShow()
         {
+        }
+
+        public void OnPlayPress()
+        {
+            Services.GetManager<MainManager>().StartPlay();
         }
     }
 }
